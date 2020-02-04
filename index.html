@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>Phone Book</title>
+  </head>
+  <body>
+  <div class="compress">
+  <div class="upperDeck">
+    <div class="upperDeckHeading">
+      <h2>Add Contacts</h2>
+    </div>
+    <div class="upperDeckInput">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1" class="floatLeft">Name</label>
+            <input type="text" class="form-control namee" id="exampleInput1"  placeholder="Enter Name" />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1" class="floatLeft">Phone No</label>
+            <input type="text" class="form-control numee" id="exampleInput2" placeholder="Phone No">
+        </div>
+      <button type="button" class="btn btn-primary floatRight" id = "addBtn">Add</button><br>
+      </form>
+    </div>
+  </div>
+  <div class="midDec">
+    <form>
+      <div class="form-group">
+          <input type="text" class="form-control searchee" id="exampleInput3"  placeholder="Name" />
+      </div>
+      <div class="form-group">
+          <input type="text" class="form-control resultee" id="exampleInput4" placeholder="Result" readonly >
+      </div>
+    <button type="button" class="btn btn-primary floatRight" id = "serBtn">Search</button>
+    </form>
+  </div>
+  <div class = "lowerDeck">
+    <div class="contactHeading">
+      <h3>Contacts</h3>
+    </div>
+    <div class="book">
+     <!-- <div class="item clearfix" id="inc-%id%">
+      <div class="item__description">%name%</div>
+      <div class="right clearfix">
+        <div class="item__value">%number%</div>
+        <div class="item__delete">
+          <button type="button" class="btn btn-primary btn-sm">
+            X
+          </button>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  </div>
+  </div>
+  <script src="index.js"></script>
+  </body>
+</html>
